@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.7.1-git\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-08 22:53+0200\n"
-"PO-Revision-Date: 2019-02-06 22:10+0000\n"
+"PO-Revision-Date: 2019-09-20 22:10+0000\n"
 "Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/mypaint/mypaint/"
 "it/>\n"
@@ -455,13 +455,13 @@ msgstr "Rinomina Gruppo"
 #, python-brace-format
 msgctxt "brush group: context menu: unique names for cloned brushes"
 msgid "{original_name} copy"
-msgstr ""
+msgstr "{original_name} copia"
 
 #: ../gui/brushselectionwindow.py:299
 #, python-brace-format
 msgctxt "brush group: context menu: unique names for cloned brushes"
 msgid "{original_name} copy {n}"
-msgstr ""
+msgstr "{original_name} copia {n}"
 
 #: ../gui/brushselectionwindow.py:325
 #, fuzzy, python-brace-format
@@ -615,7 +615,7 @@ msgstr "Imposta il colore usato per dipingere"
 
 #: ../gui/colorpicker.py:270
 msgid "Pick Hue"
-msgstr ""
+msgstr "Scegli tonalità"
 
 #: ../gui/colorpicker.py:273
 #, fuzzy
@@ -634,7 +634,7 @@ msgstr "Imposta il colore usato per dipingere"
 
 #: ../gui/colorpicker.py:316
 msgid "Pick Luma"
-msgstr ""
+msgstr "Scegli Luma"
 
 #: ../gui/colorpicker.py:319
 #, fuzzy
@@ -651,7 +651,7 @@ msgstr "Colore appena scelto e il colore usato più recentemente per dipingere"
 
 #: ../gui/colors/hcywheel.py:49
 msgctxt "Online help pages"
-msgid ""
+msgid "Pagine di aiuto in linea"
 "https://github.com/mypaint/mypaint/wiki/v1.2-HCY-Wheel-and-Gamut-Mask-Editor"
 msgstr ""
 "https://github.com/mypaint/mypaint/wiki/v1.2-HCY-Wheel-and-Gamut-Mask-Editor"
@@ -1373,40 +1373,40 @@ msgstr "Con {modifiers} premuto:  {button_actions}."
 #: ../gui/document.py:897
 msgctxt "Statusbar message: copy result"
 msgid "Empty document, nothing copied."
-msgstr ""
+msgstr "Documento vuoto, niente copiato."
 
 #: ../gui/document.py:909
 #, python-brace-format
 msgctxt "Statusbar message: copy result"
 msgid "Copied layer as {w}×{h} image."
-msgstr ""
+msgstr "Livello copiato come immagine {l} × {h}."
 
 #: ../gui/document.py:926
 msgctxt "Statusbar message: paste result"
 msgid "Nothing on clipboard."
-msgstr ""
+msgstr "Niente negli Appunti."
 
 #: ../gui/document.py:935
 msgctxt "Statusbar message: paste result"
 msgid "Clipboard does not contain an image."
-msgstr ""
+msgstr "Gli Appunti non contengono un'immagine."
 
 #: ../gui/document.py:946
 msgctxt "Statusbar message: paste result"
 msgid "Cannot paste into this type of layer."
-msgstr ""
+msgstr "Impossibile incollare in questo tipo di livello."
 
 #: ../gui/document.py:951
 #, python-brace-format
 msgctxt "Statusbar message: paste result"
 msgid "Pasted {w}×{h} image."
-msgstr ""
+msgstr "Immagine {w} × {h} incollata."
 
 #: ../gui/document.py:2037
 #, python-brace-format
 msgctxt "Statusbar message: vacuum document"
 msgid "Vacuum: discarded {removed} of {total} tiles."
-msgstr ""
+msgstr "Vuoto: scartato {removed} di {total} tessere."
 
 #. TRANSLATORS: window title for use with a filename
 #: ../gui/drawwindow.py:269
@@ -1423,7 +1423,7 @@ msgstr "MyPaint"
 #: ../gui/drawwindow.py:289
 msgctxt "Open dragged file confirm dialog: title"
 msgid "Open Dragged File?"
-msgstr ""
+msgstr "Apri file trascinato?"
 
 #: ../gui/drawwindow.py:293
 #, fuzzy
@@ -1540,7 +1540,7 @@ msgstr "Sto caricando “{file_basename}”…"
 #, python-brace-format
 msgctxt "Document I/O: message shown while working"
 msgid "Importing layers from {files_summary}…"
-msgstr ""
+msgstr "Importazione di livelli da {files_summary} ..."
 
 #: ../gui/filehandling.py:134
 #, fuzzy, python-brace-format
@@ -1570,7 +1570,7 @@ msgstr "Fallito nel salvare “{file_basename}”."
 #, python-brace-format
 msgctxt "Document I/O: fail message"
 msgid "Could not import layers from {files_summary}."
-msgstr ""
+msgstr "Impossibile importare livello da {files_summary}"
 
 #: ../gui/filehandling.py:157
 #, fuzzy, python-brace-format
@@ -1618,7 +1618,7 @@ msgstr "Salvato “{file_basename}” con successo."
 #, python-brace-format
 msgctxt "Document I/O: success"
 msgid "Imported layers from {files_summary}."
-msgstr ""
+msgstr "Livelli importati da {files_summary}."
 
 #: ../gui/filehandling.py:195
 #, fuzzy, python-brace-format
@@ -1739,7 +1739,7 @@ msgstr "Vuoi veramente continuare?"
 #: ../gui/filehandling.py:701
 msgctxt "Destructive action confirm dialog: cancel button"
 msgid "_Cancel"
-msgstr ""
+msgstr "Cancella"
 
 #: ../gui/filehandling.py:705
 #, fuzzy
@@ -1752,7 +1752,7 @@ msgctxt ""
 "Destructive action confirm dialog: fallback continue button (normally "
 "overridden)"
 msgid "Co_ntinue"
-msgstr ""
+msgstr "Co_ntinua"
 
 #: ../gui/filehandling.py:734
 #, fuzzy, python-brace-format
@@ -1765,17 +1765,17 @@ msgstr ""
 #: ../gui/filehandling.py:799
 msgctxt "File→New: confirm dialog: title question"
 msgid "New Canvas?"
-msgstr ""
+msgstr "Nuova Tela?"
 
 #: ../gui/filehandling.py:803
 msgctxt "File→New: confirm dialog: continue button"
 msgid "_New Canvas"
-msgstr ""
+msgstr "_Nuova tela"
 
 #: ../gui/filehandling.py:1003
 msgctxt "File→Open: confirm dialog: title question"
 msgid "Open File?"
-msgstr ""
+msgstr "Apri File?"
 
 #: ../gui/filehandling.py:1007
 #, fuzzy
@@ -1804,7 +1804,7 @@ msgstr "Pennello Importato"
 #: ../gui/filehandling.py:1408
 msgctxt "File→Open Recent→* confirm dialog: title"
 msgid "Open File?"
-msgstr ""
+msgstr "Open File?"
 
 #: ../gui/filehandling.py:1412
 #, fuzzy
@@ -1851,12 +1851,12 @@ msgstr "Apri"
 #: ../gui/filehandling.py:1487
 msgctxt "File→Revert: status message: canvas has no filename yet"
 msgid "Cannot revert: canvas has not been saved to a file yet."
-msgstr ""
+msgstr "Impossibile ripristinare: tela non è stato salvato in un file ancora."
 
 #: ../gui/filehandling.py:1494
 msgctxt "File→Revert confirm dialog: title"
 msgid "Revert Changes?"
-msgstr ""
+msgstr "Annulla Modifiche?"
 
 #: ../gui/filehandling.py:1499
 #, fuzzy
@@ -1909,12 +1909,12 @@ msgstr "Sorgente:"
 #: ../gui/fill.py:540
 msgctxt "fill options: 'Source:' category (tooltip)"
 msgid "The input that the fill will be based on"
-msgstr ""
+msgstr "L'input su cui si baserà il riempimento"
 
 #: ../gui/fill.py:584
 msgctxt "fill options: 'Source' category: Layer dropdown (tooltip)"
 msgid "Select a specific layer you want the fill to be based on"
-msgstr ""
+msgstr "Seleziona un livello specifico su cui vuoi basare il riempimento"
 
 #: ../gui/fill.py:602
 #, fuzzy
@@ -1991,12 +1991,12 @@ msgstr ""
 #: ../gui/fill.py:674
 msgctxt "fill options: Target | Blend Mode dropdown - warning text"
 msgid "This mode does nothing when alpha locking is enabled!"
-msgstr ""
+msgstr "Questa modalità non fa nulla quando il blocco alfa è abilitato!"
 
 #: ../gui/fill.py:688
 msgctxt "fill options: Target | Blend Mode dropdown (tooltip)"
 msgid "Blend mode used when filling"
-msgstr ""
+msgstr "Modalità di fusione utilizzata durante il riempimento"
 
 #: ../gui/fill.py:703
 msgid "Opacity:"
@@ -2005,45 +2005,47 @@ msgstr "Opacità:"
 #: ../gui/fill.py:706
 msgctxt "fill options: Opacity slider (tooltip)"
 msgid "Opacity of the fill"
-msgstr ""
+msgstr "Opacità del riempimento"
 
 #: ../gui/fill.py:729
 msgctxt "fill options: numeric option - grow/shrink fill (label)"
 msgid "Offset:"
-msgstr ""
+msgstr "Compensa:"
 
 #: ../gui/fill.py:745
 msgctxt "fill options: Offset (tooltip)"
 msgid "The distance in pixels to grow or shrink the fill"
-msgstr ""
+msgstr "La distanza in pixel per aumentare o ridurre il riempimento"
 
 #: ../gui/fill.py:756
 msgctxt "fill options: numeric option for blurring fill (label)"
 msgid "Feather:"
-msgstr ""
+msgstr "Piuma:"
 
 #: ../gui/fill.py:771
 msgctxt "fill options: Feather (tooltip)"
 msgid "The amount of blur to apply to the fill"
-msgstr ""
+msgstr "La quantità di sfocatura da applicare al riempimento"
 
 #: ../gui/fill.py:787
 msgctxt "fill options: gap detection toggle (label)"
 msgid "Use Gap Detection"
-msgstr ""
+msgstr "Usa Rilevazione gap"
 
 #: ../gui/fill.py:792
 msgctxt "fill options: Use Gap Detection (tooltip)"
-msgid ""
+msgid "opzioni di riempimento: Usa Gap Detection (tooltip)"
 "Try to detect gaps and not fill past them.\n"
 "Note: This can be a lot slower than the regular fill, only enable when you "
 "need it."
-msgstr ""
+msgstr "Prova a rilevare gli spazi vuoti e non colmarli.\n"
+"Nota: questo può essere molto più lento del normale riempimento, abilitare solo quando si ha"
+"bisogno di essa."
 
 #: ../gui/fill.py:810
 msgctxt "fill options: gap-detection sub-option, numeric setting (label)"
 msgid "Max Gap Size:"
-msgstr ""
+msgstr "Dimensione Massima del Gap:"
 
 #: ../gui/fill.py:825
 msgctxt "fill options: Max Gap Size (tooltip)"
@@ -2051,6 +2053,8 @@ msgid ""
 "The size of the largest gaps that can be detected.\n"
 "Using large values can make the fill run a lot slower."
 msgstr ""
+"La dimensione degli spazi più grandi che possono essere rilevati.\n"
+"L'uso di valori di grandi dimensioni può rallentare molto il riempimento."
 
 #: ../gui/fill.py:838
 msgctxt ""
@@ -2058,7 +2062,7 @@ msgctxt ""
 "When enabled, if the fill stops after going past a detected gap, it 'pulls' "
 "the fill back out of the gap to the other side of it."
 msgid "Prevent seeping"
-msgstr ""
+msgstr "Prevenire infiltrazioni"
 
 #: ../gui/fill.py:845
 msgctxt "fill options: Prevent seeping (tooltip)"
@@ -2224,7 +2228,7 @@ msgstr "Pressione:"
 #. TRANSLATORS: This is used on the options panel.
 #: ../gui/freehand.py:614
 msgid "Twist:"
-msgstr ""
+msgstr "Gira:"
 
 #: ../gui/gtkexcepthook.py:162
 msgid "Bug Detected"
@@ -2373,12 +2377,12 @@ msgstr "Muovi il livello corrente"
 #: ../gui/layerprops.py:356
 msgctxt "layer properties dialog: name entry: icon tooltip"
 msgid "Layer names cannot be empty."
-msgstr ""
+msgstr "I nomi dei livelli non possono essere vuoti."
 
 #: ../gui/layerprops.py:361
 msgctxt "layer properties dialog: name entry: icon tooltip"
 msgid "Layer name is not unique."
-msgstr ""
+msgstr "Il nome del livello non è univoco."
 
 #: ../gui/layerprops.py:377
 #, fuzzy
@@ -2389,7 +2393,7 @@ msgstr "Proprietà"
 #: ../gui/layerprops.py:381
 msgctxt "layer properties dialog: done button"
 msgid "Done"
-msgstr ""
+msgstr "Fatto"
 
 #. Visibility flag column
 #: ../gui/layers.py:394
@@ -2399,7 +2403,7 @@ msgstr "Visibile"
 #. Other flags column
 #: ../gui/layers.py:426
 msgid "Flags"
-msgstr ""
+msgstr "Bandiere"
 
 #: ../gui/layers.py:925
 #, fuzzy
@@ -2410,18 +2414,18 @@ msgstr "Livello"
 #: ../gui/layers.py:945
 msgctxt "Layers: description parts: unknown mode (fallback str!)"
 msgid "?mode"
-msgstr ""
+msgstr "?modo"
 
 #: ../gui/layers.py:952
 msgctxt "Layers: description parts: layer hidden"
 msgid "Hidden"
-msgstr ""
+msgstr "Nascosto"
 
 #: ../gui/layers.py:957
 #, python-format
 msgctxt "Layers: description parts: opacity percentage"
 msgid "%d%% opaque"
-msgstr ""
+msgstr "%d%% opaco"
 
 #: ../gui/layers.py:964
 #, fuzzy
@@ -2432,7 +2436,7 @@ msgstr "Bloccato"
 #: ../gui/layers.py:975
 msgctxt "Layers: description parts: unknown type (fallback str!)"
 msgid "?type"
-msgstr ""
+msgstr "?tipo"
 
 #: ../gui/layers.py:982
 #, fuzzy
@@ -2709,7 +2713,7 @@ msgstr "Guadagno:"
 #. TRANSLATORS:"Paint Pigment Mode" for the options panel. Short.
 #: ../gui/mode.py:590
 msgid "Pigment:"
-msgstr ""
+msgstr "Pigmento:"
 
 #: ../gui/optionspanel.py:47
 msgctxt "options panel: tab tooltip: title"
@@ -2848,7 +2852,7 @@ msgstr "Simmetria"
 #: ../gui/symmetry.py:380
 msgctxt "symmetry axis options panel: labels"
 msgid "Rotational lines:"
-msgstr ""
+msgstr "Linee di rotazione:"
 
 #: ../gui/symmetry.py:446
 #, fuzzy
@@ -2943,7 +2947,7 @@ msgstr ""
 #, python-brace-format
 msgctxt "workspace: sidebar tabs: button tooltips"
 msgid "{tab_title}: move tab to other sidebar"
-msgstr ""
+msgstr "{tab_title}: sposta la scheda sull'altra barra laterale"
 
 #: ../lib/command.py:181
 msgid "Unknown Command"
@@ -3254,7 +3258,7 @@ msgstr ""
 #: ../lib/floodfill.py:133
 msgctxt "floodfill status message: use active tense"
 msgid "Blurring"
-msgstr ""
+msgstr "offusca"
 
 #: ../lib/floodfill.py:134
 msgctxt "floodfill status message: use active tense"
@@ -3264,12 +3268,12 @@ msgstr ""
 #: ../lib/floodfill.py:135
 msgctxt "floodfill status message: use active tense"
 msgid "Finishing up"
-msgstr ""
+msgstr "Finitura"
 
 #: ../lib/floodfill.py:137
 msgctxt "uniform square region of pixels, plural noun"
 msgid "tiles"
-msgstr ""
+msgstr "tessere"
 
 #: ../lib/helpers.py:535
 #, fuzzy, python-brace-format
@@ -3320,12 +3324,12 @@ msgstr ""
 #: ../lib/layer/data.py:1228
 msgctxt "layer type descriptions"
 msgid "Bitmap Data"
-msgstr ""
+msgstr "Dati Bitmap"
 
 #: ../lib/layer/data.py:1244
 msgctxt "layer default names"
 msgid "Data"
-msgstr ""
+msgstr "Dati"
 
 #: ../lib/layer/data.py:1249
 #, fuzzy
@@ -3379,7 +3383,7 @@ msgstr "Visualizza"
 #: ../lib/layervis.py:49
 msgctxt "layer visibility sets: text shown when no user-managed view is active"
 msgid "No active view"
-msgstr ""
+msgstr "Nessuna vista attiva"
 
 #: ../lib/layervis.py:579
 #, fuzzy
@@ -3397,7 +3401,7 @@ msgstr "Rimuovi Livello"
 #, python-brace-format
 msgctxt "layer views: commands: activate"
 msgid "Activate Layer View “{name}”"
-msgstr ""
+msgstr "Attiva vista livello "{nome}""
 
 #: ../lib/layervis.py:692
 #, fuzzy
@@ -3429,12 +3433,13 @@ msgstr "Solo il livello superiore senza colori di fusione."
 
 #: ../lib/modes.py:46
 msgid "Pigment"
-msgstr ""
+msgstr "Pigmento"
 
 #: ../lib/modes.py:47
 msgid ""
 "Similar to mixing actual pigments by upsampling to 10 spectral channels."
 msgstr ""
+"Simile alla miscelazione di pigmenti effettivi mediante l'upsampling a 10 canali spettrali."
 
 #: ../lib/modes.py:50
 msgid "Multiply"
@@ -3693,7 +3698,7 @@ msgstr "Rifletti Orizzontale"
 
 #: ../lib/tiledsurface.py:50
 msgid "Vertical and horizontal"
-msgstr ""
+msgstr "Verticale e orrizontale"
 
 #: ../lib/tiledsurface.py:51
 #, fuzzy
@@ -3702,7 +3707,7 @@ msgstr "Reimposta Rotazione"
 
 #: ../lib/tiledsurface.py:52
 msgid "Snowflake"
-msgstr ""
+msgstr "Fiocco di neve"
 
 #: ../lib/tiledsurface.py:627
 #, python-format
@@ -3717,7 +3722,7 @@ msgstr "Recupero lavoro interrotto?"
 #: ../po/tmp/autorecover.glade.h:3
 msgctxt "Autosave Recovery dialog|"
 msgid "_Look for backups at startup"
-msgstr ""
+msgstr "_ Cerca backup all'avvio"
 
 #: ../po/tmp/autorecover.glade.h:4
 msgctxt "Autosave Recovery dialog|Show Dialog at Startup checkbutton|"
@@ -3728,6 +3733,11 @@ msgid ""
 "You can always launch this dialog from the ‘File’ menu when MyPaint is "
 "running."
 msgstr ""
+"Esegui questa finestra di dialogo di ripristino del salvataggio automatico all'avvio di MyPaint, se sono presenti file da"
+"Recuperare.\n"
+"\n"
+"Puoi sempre avviare questa finestra di dialogo dal menu" File "quando MyPaint è"
+"in esecuzione."
 
 #. Deletes the selected autosave backup file.
 #: ../po/tmp/autorecover.glade.h:8
@@ -3759,7 +3769,7 @@ msgstr "Salva questo backup su disco poi continua a lavorare su esso."
 #: ../po/tmp/autorecover.glade.h:14
 msgctxt "Autosave Recovery dialog|"
 msgid "Decide _Later"
-msgstr ""
+msgstr "Decidi _Più tardi"
 
 #: ../po/tmp/autorecover.glade.h:15
 msgctxt "Autosave Recovery dialog|Cancel button|"
@@ -4019,11 +4029,11 @@ msgstr "Inserisci Riga"
 
 #: ../po/tmp/inktool.glade.h:15 ../po/tmp/resources.xml.h:188
 msgid "Simplify Points"
-msgstr ""
+msgstr "Semplifica i punti"
 
 #: ../po/tmp/inktool.glade.h:16
 msgid "Simplify the curve using the Reumann-Witkam algorithm."
-msgstr ""
+msgstr "Semplifica la curva usando l'algoritmo Reumann-Witkam."
 
 #: ../po/tmp/inktool.glade.h:17 ../po/tmp/resources.xml.h:190
 #, fuzzy
@@ -4032,12 +4042,12 @@ msgstr "Elimina Punto"
 
 #: ../po/tmp/inktool.glade.h:18
 msgid "Cull every other point from the curve."
-msgstr ""
+msgstr "Elimina ogni altro punto dalla curva."
 
 #: ../po/tmp/layerprops.glade.h:1
 msgctxt "Layer properties widget → Name → label tooltip"
 msgid "The layer’s unique name."
-msgstr ""
+msgstr "Il nome univoco del livello."
 
 #: ../po/tmp/layerprops.glade.h:2
 #, fuzzy
